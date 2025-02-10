@@ -22,7 +22,7 @@
         <label for="dob">DATE OF BIRTH</label>
         <input type="date" id="dob" name="dob" required><br><br>
         <button type="submit">LOGIN</button>
-    </form>
+    </form><br>
     <!-- 3. Use the <table> element to create a table with 3 rows and 4 columns. Include a header row and make the first column bold using inline HTML attributes. -->
     <table border="1">
         <tr>
@@ -50,12 +50,36 @@
             <td>ITEM2</td>
             <td>ITEM3</td>
         </tr>
-    </table><br><br>
+    </table><br>
+    <!-- 6. Create a dropdown list of three items (e.g., colors or countries) and add an option that defaults to "Select One" using the <select> tag. -->
     <select>
-        <option value="">Select</option>
+        <option value="">Select One</option>
         <option value="india">INDIA</option>
         <option value="usa">USA</option>
         <option value="uk">UK</option>
-    </select>
+    </select><br>
+    <!-- 7. Use an ordered list <ol> to create a table of contents for a webpage. Link each list item to a corresponding section using <a> tags and anchor points. -->
+    <ol>
+        <li><a href="#section1">Introduction</a></li>
+        <li><a href="#section2">Description</a></li>
+        <li><a href="#section3">Summary</a></li>
+    </ol>
+    <h2 id="section1">Introduction</h2>
+    <p>Info about Introduction</p>
+    <h2 id="section2">Description</h2>
+    <p>Info about Description</p>
+    <h2 id="section3">Summary</h2>
+    <p>overview for content</p><br>
+    <!-- 9. Create a form with checkboxes to select your favorite programming languages. Include "JavaScript", "Python", "Java", and "C++".(it may be more than one language) -->
+    <form>
+    <label for="checkbox">JavaScript</label>
+    <input type="checkbox" name="language" value="JavaScript">
+    <label for="checkbox">Python</label>
+    <input type="checkbox" name="language" value="Python">
+    <label for="checkbox">Java</label>
+    <input type="checkbox" name="language" value="Java">
+    <label for="checkbox">C++</label>
+    <input type="checkbox" name="language" value="C++">
+    </form>
 </body>
 </html>
